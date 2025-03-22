@@ -1,9 +1,18 @@
+h1{
+    color:rgb(97, 27, 158);
+    font-weight: bold;
+    text-decoration: black underline;
+    text-align: center;
+}
 h2{
-    color: orange;
+    color: rgb(44, 3, 50);
+    background-color: rgb(188, 205, 199);
+    text-decoration: rgb(212, 156, 156) overline;
 }
 p{
-    background-color: black;
-    color: white;
+    color: rgb(60, 9, 99);
+    line-height: 2;
+    font-family: Arial;
 }
 button{
     background: #162fd0 ;
