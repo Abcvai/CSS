@@ -1,0 +1,15 @@
+*{
+    background-color: rgb(246, 245, 248);
+}
+#login{
+    color:red;
+}
+#signup{
+    color: red;
+}
+.follow{
+    color:maroon;
+}
+.name{
+    color:rgb(227, 63, 241);
+}
