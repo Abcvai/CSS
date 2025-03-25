@@ -1,15 +1,13 @@
 *{
-    background-color: rgb(246, 245, 248);
+    font-family: 'Courier New';
 }
-#login{
-    color:red;
+h1{
+    color: #1b74e4;
 }
-#signup{
-    color: red;
+#searchbtn{
+    color: white;
+    background-color: black;
 }
-.follow{
-    color:maroon;
-}
-.name{
-    color:rgb(227, 63, 241);
+.userbtn{
+    background-color: aqua;
 }
