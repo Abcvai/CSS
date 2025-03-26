@@ -1,13 +1,20 @@
-*{
-    font-family: 'Courier New';
+/*desendant selector*/
+.name a{
+color: purple;
+background-color: yellow;
 }
-h1{
-    color: #1b74e4;
+nav ul li a{
+    color: hotpink;
 }
-#searchbtn{
-    color: white;
-    background-color: black;
+p+h3{
+    text-decoration: underline;
 }
-.userbtn{
+div>input{
     background-color: aqua;
+}
+input[type="text"]{
+    color: green;
+}
+input[type="password"]{
+    color: red;
 }
