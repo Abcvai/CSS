@@ -3,8 +3,14 @@
 color: purple;
 background-color: yellow;
 }
+h1{
+    color:rgb(161, 12, 12)
+}
 nav ul li a{
     color: hotpink;
+}
+button{
+    background-color: palevioletred;
 }
 p+h3{
     text-decoration: underline;
@@ -21,3 +27,19 @@ input[type="password"]{
 #myID p{
     color: green;
 }
+button:hover {
+    background-color: black;
+    color: wheat;
+}
+p:active{
+    background-color: aqua;
+    color: red;
+}
+input[type="radio"]:checked + label{
+    color:red;
+    font-weight: bold;
+}
+h1::first-letter{
+    color: black;
+}
+
