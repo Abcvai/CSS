@@ -52,11 +52,11 @@ h3{
     color: maroon;
 }
 .follow{
-    color: rgb(34, 207, 230);
+    color: rgb(34, 207, 230) !important;
 }
 #id{
-    color: blue;
+    color: rgb(190, 16, 39);
 }
 #h{
-    color: rgb(4, 66, 37);
+    color: rgb(0, 0, 0);
 }
