@@ -11,6 +11,7 @@ div{
 h1{
     border: 2px dashed green;
     border-radius: 40%;
+    display: inline;
 }
 button{
     border: 5px solid black;
