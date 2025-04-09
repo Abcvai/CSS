@@ -1,0 +1,9 @@
+div{
+    height: 100px;
+    width: 100px;
+   background-color: rgba(6, 7, 1, 0.87);
+   opacity: 1;
+   transition: 2s;
+   border-radius: 50%;
+   transition-delay: 1s;
+   transition: 
