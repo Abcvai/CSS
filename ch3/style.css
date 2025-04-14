@@ -1,9 +1,10 @@
 div{
-    width: 200px;
-    height: 50px;
+    width: 400px;
+    height: 200px;
     text-align: center;
     background-color: pink;
     margin: 10px auto;
-    box-shadow: 10px 10px 8px rgb(5, 5, 5) ;
-    border: solid black 2px;
+    background-image: url("image.jpg");
+    background-size: contain ;
+
 }
