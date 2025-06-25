@@ -7,10 +7,11 @@ height: 300px;
 width: 80%;
 margin: 10px auto;
 border: 2px solid black;
-flex-direction: column;
+flex-direction: row;
 }
 #container div{
     height: 100px;
-    width: 150px;
+    width: 500px;
     font-size: 1em;
+    text-align: center;
 }
