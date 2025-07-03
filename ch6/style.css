@@ -1,21 +1,28 @@
-.box{
-    height: 50px;
-    width: 200px;
-    background-color: palevioletred;
-    animation: fontAnimation 4s ease-in 0s infinite normal ;
+h1{
+    background-color: yellow;
+    border: 2px solid black;
 }
-@keyframes fontAnimation{
-    0%{
-        background-color: aqua;
+@media ( min-width:500px) {
+h1{
+    background-color: rgb(18, 233, 18);
+}
+    div{
+        background-color: blue;
+        height: 100px;
+        width: 100px;
     }
-    50%{
+}
+@media (max-width:400px) {
+    h1{
         background-color: pink;
-        border-radius: 5px;
     }
-    80%{
-        background-color: rgb(174, 230, 21);
+    
+}
+@media (min-width:200px ) and (max-width:300px){
+    h1{background-color: magenta;}
+}
+@media (orientation: landscape) {
+    h1{background-color: aqua;
     }
-    100%{
-        background-color: green;
-    }
+    
 }
