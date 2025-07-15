@@ -10,26 +10,48 @@
 </head>
 <body>
     <div class="container">
-      <h2>Grid System</h2>
+     <h2>Form Demo</h2>
+     <form >
       <div class="row">
-        <div class="col-4 bg-success">one</div>
-        <div class="col-2 bg-danger">two</div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-md-2 bg-success">one</div>
-        <div class="col-md-8 bg-danger">two</div>
-        <div class="col-md-2 bg-success">three</div>
-      </div>
-      <br>
-      <div class="row align-items-center">
-        <div class="col bg-danger">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste repellendus quas atque molestias aliquid. Quos est provident nemo quia sapiente temporibus placeat repudiandae fugit? Aliquid cupiditate nam quia eaque natus!</div>
-        <div class="col bg-success">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius beatae ratione officia nihil ut nisi aperiam dolores delectus deserunt, nemo ab unde! Culpa molestias inventore officia iure, adipisci non nobis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt architecto, maxime aliquid autem labore hic cum amet ad velit. Quaerat distinctio enim libero nisi, officiis unde ut laboriosam minus quibusdam.</div>
-        <div class="col bg-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla deserunt assumenda deleniti, pariatur, rem illum quo laborum iste quia optio voluptates unde explicabo ex neque. Maiores quae adipisci rem sit.</div>
-        <div class="col bg-danger align-self-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, nemo quo! Quis necessitatibus natus nostrum eveniet maiores illo. Iste, eum id ratione earum consequatur itaque eveniet fugit tempore laborum amet.</div>
-      </div>
+       <div class="mb-3 col">
+       <label class="for-label" for="email">Email</label>
+       <input 
+         type="text" 
+         class="form-control" 
+         placeholder="email" 
+         id="email"
+        />
+       </div>
+      
+      <div class="mb-3 col">
+       <label class="for-label" for="pass">Password</label>
+       <input 
+       type="password" 
+       class="form-control" 
+       placeholder="password" 
+       id="pass"
+       />
+       </div>
+        </div>
 
+     <div class="mb-3">
+      <select class="form-select">
+        <option selected>Choose your city</option>
+        <option value="1" >Mumbai</option>
+        <option value="2">Pune</option>
+        <option value="3">Delhi</option>
+      </select>
     </div>
+    <div class="form-check mb-3">
+      <label for="agree" class="form-check-labels">Agree</label>
+      <input type="checkbox" id="agree" class="form-check-input"/>
+    </div>
+     <div class="form-check mb-3">
+      <label for="agree" class="form-check-labels">Yes/No</label>
+      <input type="radio" id="agree" role="switch" class="form-check-input"/>
+    </div>
+  </form>
+  </div>
     
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
