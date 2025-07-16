@@ -3,56 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap CSS</title>
+    <title>Pricing page</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"/>
       <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div class="container">
-     <h2>Form Demo</h2>
-     <form >
-      <div class="row">
-       <div class="mb-3 col">
-       <label class="for-label" for="email">Email</label>
-       <input 
-         type="text" 
-         class="form-control" 
-         placeholder="email" 
-         id="email"
-        />
-       </div>
-      
-      <div class="mb-3 col">
-       <label class="for-label" for="pass">Password</label>
-       <input 
-       type="password" 
-       class="form-control" 
-       placeholder="password" 
-       id="pass"
-       />
-       </div>
-        </div>
-
-     <div class="mb-3">
-      <select class="form-select">
-        <option selected>Choose your city</option>
-        <option value="1" >Mumbai</option>
-        <option value="2">Pune</option>
-        <option value="3">Delhi</option>
-      </select>
-    </div>
-    <div class="form-check mb-3">
-      <label for="agree" class="form-check-labels">Agree</label>
-      <input type="checkbox" id="agree" class="form-check-input"/>
-    </div>
-     <div class="form-check mb-3">
-      <label for="agree" class="form-check-labels">Yes/No</label>
-      <input type="radio" id="agree" role="switch" class="form-check-input"/>
-    </div>
-  </form>
-  </div>
+   <h1 class="text-center">Pricing</h1>
+   <h1 class="text-center">Please checkout our most effective payments model</h1>
     
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+   <div class="row text-center justify-content-evenly">
+     <div class="card col-sm-5 col-md-3 mb-3 me-3">
+       <div class="card-header">
+         <h4>Free</h4>
+       </div>
+       <div class="card-body">
+        <h1 class="card-title">$0 / mo</h1>
+        <ul class="list-unstyled">
+          <li>10 user included</li>
+          <li>2Gb of storage</li>
+          <li>Email Support</li>
+        </ul>
+        <button href="#" class="btn btn-outline-primary">Sign up for free</button>
+       </div>
+      </div>
+
+      <div class="card col-sm-5 col-md-3 me-3">
+         <div class="card-header">
+           <h4>pro</h4>
+         </div>
+         <div class="card-body">
+        <h1 class="card-title">$15 / mo</h1>
+        <ul class="list-unstyled">
+          <li>10 user included</li>
+          <li>2GB of storage</li>
+          <li>priority Email Support</li>
+        </ul>
+        <button href="#" class="btn btn-outline-primary">Get Statred</button>
+       </div>
+      </div>
+
+       <div class="card col-sm-5 col-md-3 me-3">
+        <div class="card-header">
+          <h4>pro</h4>
+         </div>
+         <div class="card-body">
+        <h1 class="card-title">$29 / mo</h1>
+        <ul class="list-unstyled">
+          <li>20 user included</li>
+          <li>10GB of storage</li>
+          <li>Phone and  Email Support</li>
+        </ul>
+        <button href="#" class="btn btn-outline-primary">Contact us</button>
+       </div>
+      </div>
+
+      </div>
+    </div>
+   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
