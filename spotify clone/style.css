@@ -160,11 +160,23 @@ a{
 
 .nav-icons{
     margin-left: 0.75rem;
+    align-items: baseline;
+    justify-content: baseline;
 
+}
+.ip{
+    height: 1.5rem;
+    background-color: #f7f3f3;
+    border: 2px solid black;
+    border-radius: 5rem;
+    margin-bottom: 1rem;
 }
 
 .lo{
-    height: 1.5rem;
+    margin-top: 1.5rem;
+    height: 2rem;
+    margin-left: 1.5rem;
+
 }
 
 .nav-sticky-options {
@@ -177,7 +189,7 @@ a{
     margin-right: 1rem ;
 }
 
-@media (max-width:1000px){
+@media (max-width:700){
     .hide{
         display: none;
     }
@@ -336,10 +348,14 @@ a{
     margin: 0;
     
 }
+
+.con-ic:hover{
+    opacity: 5;
+}
 .con-ic{
      height: 1rem;
      margin-right: 0.5rem;
-     opacity: 1;
+     opacity: 0.8;
 }
 
 .vol-bar{
