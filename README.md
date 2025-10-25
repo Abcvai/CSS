@@ -57,14 +57,6 @@ Stay tuned for more updates!
 
 ---
 
-## 🤝 Let's Connect
-
-If you're also learning or want to collaborate, feel free to reach out!
-
-- 📬 GitHub: [your-username](https://github.com/your-username)
-- 📷 Instagram: [your-instagram] (if you'd like to share)
-- 📧 Email: [your-email@example.com]
-
 ---
 
 **Thanks for visiting my repo! 😊**  
